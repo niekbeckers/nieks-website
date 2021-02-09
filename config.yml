@@ -1,5 +1,5 @@
 baseURL: "niekbeckers.github.io"
-title: Niek's website
+title: Niek Beckers
 paginate: 5
 theme: papermod
 
@@ -11,32 +11,29 @@ menu:
     - name: Projects
       url: projects
       weight: 20
-    - name: Posts
-      url: posts
-      weight: 30
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Niek's website"
+  description: "Niek Beckers"
   author: Niek
 
   defaultTheme: auto
   # disableThemeToggle: true
   ShowShareButtons: false
   ShowReadingTime: true
-  # disableSpecial1stPost: true
+  disableSpecial1stPost: false
   displayFullLangName: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowToc: false
   # comments: false
-  images: []
+  images: ["img/niek.png"]
 
   profileMode:
     enabled: true
-    title: Niek's website
-    imageUrl: "#"
-    imageTitle: my image
+    title: Niek Beckers
+    imageUrl: "img/niek.png"
+    imageTitle: Me!
     # imageWidth: 120
     # imageHeight: 120
     buttons:
