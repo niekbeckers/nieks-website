@@ -1,11 +1,12 @@
 ---
 title: "About"
-
-date: 2021-02-07T22:03:41+01:00
-layout: "simple-static"
+date: 2021-02-09
 draft: false
 type: "about"
 ShowReadingTime: false
+ShowBreadCrumbs: false
 ---
 
-It's-a me!
+Hi!
+
+I am an engineer, researcher, winter- :snowflake: and mountain enthusiast ⛰️

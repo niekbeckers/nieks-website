@@ -12,6 +12,8 @@ menu:
       url: projects
       weight: 20
 
+enableEmoji: true
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "Niek Beckers"
@@ -23,7 +25,7 @@ params:
   ShowReadingTime: true
   disableSpecial1stPost: false
   displayFullLangName: true
-  ShowPostNavLinks: true
+  ShowPostNavLinks: false
   ShowBreadCrumbs: true
   ShowToc: false
   # comments: false
@@ -34,8 +36,8 @@ params:
     title: Niek Beckers
     imageUrl: "img/niek.png"
     imageTitle: Me!
-    # imageWidth: 120
-    # imageHeight: 120
+    imageWidth: 160
+    imageHeight: 160
     buttons:
       - name: About
         url: about
@@ -44,14 +46,12 @@ params:
 
   homeInfoParams:
     Title: "Niek's website"
-    Content: >
-        Welcome to demo of hugo's theme PaperMod.
-        - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
-        - Do give a 🌟 on Github !
-        - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
+    Content: Welcome to my website!
   socialIcons:
     - name: github
       url: "https://github.com/niekbeckers"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/niekbeckers"
 
 taxonomies:
   # post: posts
