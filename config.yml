@@ -1,7 +1,7 @@
 baseURL: "niekbeckers.github.io"
 title: Niek Beckers
 paginate: 5
-theme: PaperMod
+theme: "github.com/adityatelange/hugo-PaperMod"
 
 menu:
   main:
@@ -58,7 +58,7 @@ taxonomies:
   # project: projects
   # about: about
 
-module:
-  imports:
-    path: "github.com/adityatelange/hugo-PaperMod"
-    disable: false
+# module:
+#   imports:
+#     path: "github.com/adityatelange/hugo-PaperMod"
+#     disable: false
