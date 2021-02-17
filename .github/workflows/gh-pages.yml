@@ -1,35 +1,30 @@
 name: github pages
-on: push
+
+on:
+  push:
+    branches:
+      - main  # Set a branch to deploy
+
 jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
-      - name: Git checkout
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Update theme
-        # (Optional)If you have the theme added as submodule, you can pull it and use the most updated version
-        run: git submodule update --init --recursive
-
-      - name: Setup hugo
+      - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "latest"
+          hugo-version: 'latest'
+          # extended: true
 
       - name: Build
-        # remove --minify tag if you do not need it
-        # docs: https://gohugo.io/hugo-pipes/minification/
         run: hugo --minify
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3.7.3
-
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.TOKEN }}
-          external_repository: niekbeckers/niekbeckers.github.io
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          #   keep_files: true
-          user_name: niekbeckers
-          user_email: niekbeckers@gmail.com
-          publish_branch: main
-        #   cname: example.com
