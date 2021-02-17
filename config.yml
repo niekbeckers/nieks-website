@@ -1,7 +1,7 @@
 baseURL: "niekbeckers.github.io"
 title: Niek Beckers
 paginate: 5
-theme: papermod
+theme: PaperMod
 
 menu:
   main:
