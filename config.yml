@@ -1,4 +1,4 @@
-baseURL: "niekbeckers.github.io"
+baseURL: "https://niekbeckers.github.io"
 title: Niek Beckers
 paginate: 5
 theme: "github.com/adityatelange/hugo-PaperMod"
