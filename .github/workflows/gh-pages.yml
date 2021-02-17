@@ -26,7 +26,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.PERSONAL_TOKEN_DEPLOY }}
+          personal_token: ${{ secrets.PERSONAL_TOKEN_DEPLOY }}
           external_repository: niekbeckers/niekbeckers.github.io
           user_name: niekbeckers
           user_email: niekbeckers@gmail.com
