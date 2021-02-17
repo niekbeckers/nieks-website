@@ -1,3 +1,3 @@
-module niekbeckers.github.io/niekbeckers
+module niekbeckers.github.io
 
 go 1.16
