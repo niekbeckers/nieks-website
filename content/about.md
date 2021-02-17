@@ -6,7 +6,7 @@ ShowReadingTime: false
 ShowBreadCrumbs: false
 ---
 
-Hello!
+Hi!
 
 I am an engineer and researcher interested in human-robot interaction. I enjoy understanding the complex interactions between humans and robots, making computational models of human behavior, and developing robots that can work in synergy _with_ humans. This requires a multidisciplinary toolkit, which I try to apply and strengthen every day, ranging from robotics and machine learning to human factors research. To support my research I built my own robots and software (check out my [projects]({{< ref "/projects" >}})). I love working with people and stepping out of my own 'knowledge comfort zone'.   
 
