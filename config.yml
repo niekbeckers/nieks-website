@@ -29,7 +29,7 @@ params:
   ShowBreadCrumbs: true
   ShowToc: false
   # comments: false
-  images: ["img/niek.png"]
+  images: ["img/","img/niek.png", "img/bimanual.jpg", "gif/bros-teleop.gif"]
 
   profileMode:
     enabled: true
@@ -57,8 +57,3 @@ taxonomies:
   # post: posts
   # project: projects
   # about: about
-
-# module:
-#   imports:
-#     path: "github.com/adityatelange/hugo-PaperMod"
-#     disable: false
