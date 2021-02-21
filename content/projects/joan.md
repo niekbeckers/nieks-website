@@ -5,3 +5,7 @@ draft: false
 ---
 
 Work in progress :-)
+
+We made a video explaining JOAN in more detail:
+
+{{< youtube xcGXE7rI61s >}}
