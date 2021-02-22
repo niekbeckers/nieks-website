@@ -13,7 +13,7 @@ The robots make up typical teleoperation robots, through which someone can feel 
 
 ![BROS teleoperation](/gif/bros-teleop.gif#center)
 
-If you would like to have more information on the robot's design, capabilities, and technical validation, check out the chapter I wrote for my thesis. You can check out the MATLAB/Simulink, TwinCAT project and visualization ([openFrameworks](https://openframeworks.cc/)) code [here](https://github.com/niekbeckers/bi-robot-setup). We will also upload the SolidWorks files to OSF.io soon (making the design fully open-source).
+If you would like to have more information on the robot's design, capabilities, and technical validation, check out the [chapter](/bros-chapter-phdthesis-220221.pdf) I wrote for my thesis. You can check out the MATLAB/Simulink, TwinCAT project and visualization ([openFrameworks](https://openframeworks.cc/)) code [here](https://github.com/niekbeckers/bi-robot-setup). We will also upload the SolidWorks files to OSF.io soon (making the design fully open-source).
 
 ![And one more](/img/bros-render-overview.png)
 
