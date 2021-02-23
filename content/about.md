@@ -12,6 +12,8 @@ I am an engineer and researcher interested in human-robot interaction. I enjoy u
 
 I am a postdoctoral fellow at [Cognitive Robotics](https://www.tudelft.nl/3me/over/afdelingen/cognitive-robotics-cor) and [AITech](https://www.tudelft.nl/aitech) of Delft University of Technology working on human robot interaction. Among others, I work with colleagues from many disciplines, from computer science to industrial engineering and philosophy to better understand how to design AI and robots that remain under human control. Application areas include automated vehicles and robots that work with humans in industry settings. I did research in rehabilitation robotics, and even investigate how we, humans, adapt to space 🚀. Always looking for a new challenge!
 
-Besides tinkering with my own robotics projects, I love the winter :snowflake: and I am an avid mountain enthusiast ⛰️.
+Besides tinkering with my own robotics projects, I am an avid mountain enthusiast ⛰️, and winter is my favorite season.
 
-You can find my resume [here](/resume-nwmbeckers-210221-online.pdf).
+You can find my resume [here](/resume-nwmbeckers-210221-online.pdf). If you would like to get in touch, please send me a message on [LinkedIn](https://www.linkedin.com/in/niekbeckers/).
+
+Thank you!
