@@ -7,13 +7,15 @@ ShowBreadCrumbs: false
 
 ![BROS photo](/img/bros-photo-lowres.png)
 
-During my PhD I studied and modeled how two people perform a task together through physical interaction: by interacting through forces for which I used a robot setup. Together with Koen from [Hankamp Rehab](https://www.hankamprehab.nl/), we designed and built our own robotic setup to perform my experiments. The setup consists of two identical high-performance planar robots, controlled by a real-time operating system (through EtherCAT and TwinCAT). We did multiple experiments on them, with over 140 participants and multiple Master theses 😃.
+During my PhD I studied and modeled how two people perform a task together through physical interaction: by interacting through forces. We were interested in studying human-human interaction to develop better controllers for physical rehabilitation robots. Because we did not have a ready-made robot solution to research physical human-human interaction, we (Koen from [Hankamp Rehab](https://www.hankamprehab.nl/) and I) designed and built our own robotic setup from scratch. The robot setup consists of two identical high-performance robots. Participants held a handle on each robot which that could move in a 2D plane, and each robot could generate forces onto the participant's hand. The robots were controlled by a real-time operating system (EtherCAT and TwinCAT). 
 
-The robots make up typical teleoperation robots, through which someone can feel the forces occurring on the other side (like bumping into an object or another person pushing against it). To give you an impression, check out the robots in a compliant teleoperation mode:
+The two robots make up a typical teleoperation setup, through which a person can feel the forces occurring on the other side (like bumping into an object or another person pushing against it). To give you an impression, check out the robots in a compliant teleoperation mode:
 
 ![BROS teleoperation](/gif/bros-teleop.gif#center)
 
-If you would like to have more information on the robot's design, capabilities, and technical validation, check out the [chapter](/bros-chapter-phdthesis-220221.pdf) I wrote for my thesis. You can check out the MATLAB/Simulink, TwinCAT project and visualization ([openFrameworks](https://openframeworks.cc/)) code [here](https://github.com/niekbeckers/bi-robot-setup). We will also upload the SolidWorks files to OSF.io soon (making the design fully open-source).
+We performed multiple experiments on them (for my own Ph.D., but also for student theses), counting over 140 participants working consistently (and they only needed maintenance once) 😃.
+
+If you would like to read more information on the robot's design, capabilities, and technical validation, check out my dissertation [chapter](/bros-chapter-phdthesis-220221.pdf). You can check out the MATLAB/Simulink, TwinCAT project and visualization ([openFrameworks](https://openframeworks.cc/)) code [here](https://github.com/niekbeckers/bi-robot-setup). We will also upload the SolidWorks files to OSF.io soon. 
 
 ![And one more](/img/bros-render-overview.png)
 

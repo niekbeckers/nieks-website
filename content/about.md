@@ -17,3 +17,5 @@ Besides tinkering with my own robotics projects, I am an avid mountain enthusias
 You can find my resume [here](/resume-nwmbeckers-210221-online.pdf). If you would like to get in touch, please send me a message on [LinkedIn](https://www.linkedin.com/in/niekbeckers/).
 
 Thank you!
+
+![Klettersteig in Åndalsnes](/img/klettersteig.jpg)
